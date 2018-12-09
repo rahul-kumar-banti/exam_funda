@@ -1,0 +1,51 @@
+.inst_reg_sec
+{
+	background-image: url(background_image/1.jpg);
+
+
+
+	
+}
+.inst_country_code
+{
+	width: 10%;
+	height: 32px;
+	border-radius: 15px 0px 0px 15px;
+	border:0px;
+}
+.inst_mobile
+{
+	width:88.40%;
+	height: 32px;
+	border-radius: 3px;
+	border:0px;
+
+
+}
+.insttab
+{
+
+	margin-right:20%;
+	margin-top:-10px;
+}
+.close_inst_reg_form
+{
+	float: right;
+	margin-right: 10px;
+	font-size:32px;
+	color: red;
+	width: 30px;
+	cursor: pointer;
+}
+@media screen and(max-width:450px)
+{
+	.inst_country_code
+	{
+width: 20%;
+	}
+	.inst_mobile
+{
+	width:70.40%;
+}
+
+}

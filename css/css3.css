@@ -1,0 +1,90 @@
+#lfm{
+   position:absolute;
+   top:200px;
+   left:550px;
+	border:2px solid black;
+	
+
+//height:200px;
+width:300px;
+	
+}
+.circular {
+	float:left;
+	margin-left:50px;
+	width: 150px;
+	height:150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	//background-color:white;
+	background-image:url('images/n6.jpg');
+	//background-image:url('uploads/20160510_205143.jpg')
+	
+	//background-image:url('uploads/<?php echo $SESSION["user_img"] ?>');
+	}
+
+	.usershow
+	{
+	
+		background-image:url('images/n5.jpg');
+	}
+	#tt
+	{
+		margin-top:15%;
+
+	
+	
+	}
+	
+#lout
+{
+	float:left;
+	margin-left:80px;
+	margin-top:-10px;
+}
+#imm
+{
+	height:100%;
+	width:80%;
+}
+#imshow
+{
+	float:left;
+	margin-left:30px;
+	margin-top:20px;
+	
+}
+#nt
+{
+	float:left;
+	margin-left:10px;
+}
+
+#lf{
+	position:absolute;
+   top:50px;
+   left:80px;
+   //box-shadow:2px 4px 2px 4px gray;
+	
+	
+}
+#uid,#pwd{
+	background-color:lightblue;
+}
+#login
+{
+	background-color:green;
+	
+}
+#forget
+{
+	float:right;
+	background-color:red;
+}
+#er
+{
+	color:red;
+	font-size:16px;
+	font-style:bold;
+}

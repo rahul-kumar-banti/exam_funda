@@ -1,0 +1,73 @@
+
+.course-option1:hover,.course-option2:hover,.course-option3:hover,.course-option4:hover,
+.course-option5:hover,.course-option6:hover,.course-option7:hover,.course-option8:hover,
+.course-option9:hover,.course-option10:hover,.course-option11:hover,.course-option12:hover
+{
+
+box-shadow: 0px 0px 15px green;
+animation-name: example;
+    animation-duration: 4s;
+
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.course-option1
+{
+background-color:#C4AF00; 
+}
+.course-option2
+{
+	background-color:#AC3C3C;
+}
+.course-option3
+{
+background-color:#976F97;
+}
+.course-option4
+{
+	background-color:#198864;
+}
+.course-option5
+{
+background-color:#E91E63;
+}
+.course-option6
+{
+	background-color:#6FA02C;
+}
+.course-option7
+{
+background-color:#3B97CC;
+}
+.course-option8
+{
+	background-color:#9C27B0;
+}
+.course-option9
+{
+background-color:#3B97CC;
+}
+.course-option10
+{
+	background-color:#976F97;
+}
+.course-option11
+{
+background-color:#AC3C3C;
+}
+.course-option12
+{
+	background-color:#976F97;
+}
+.course-option1,.course-option2,.course-option3,.course-option4,
+.course-option5,.course-option6,.course-option7,.course-option8,
+.course-option9,.course-option10,.course-option11,.course-option12
+{
+
+	height:50px;
+}

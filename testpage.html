@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			
+		</title>
+		<meta  name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+	.p1,.p2,.p3,.p4
+	{
+		border-style: inset;
+	}
+		.p1
+		{ position: absolute;
+			top:0px;
+			left:0px;
+			width:0px;
+			height:0px;
+			background-color:lightblue;
+		}
+		.p2
+		{
+			position:absolute;
+			right: 0px;
+			top:0px;
+			width:0px;
+			height:0px;
+			background-color:pink;
+		}
+		.p3
+		{
+			position: absolute;
+			bottom: 0px;
+			left:0px;
+			width:0px;
+			height:0px;
+			background-color:red;
+		}
+		.p4
+		{
+			position: absolute;
+			bottom:0px;
+			right: 0px;
+			width:0px;
+			height:0px;
+			background-color:green;
+		}
+		.btnclick
+		{
+			position: absolute;
+			top:50%;
+			left:30%;
+			right:30%;
+		}
+	</style>
+	</head>
+<body>
+<div class="p1"></div>
+<div class="p2"></div>
+<div class="p3"></div>
+<div class="p4"></div>
+<button class="btn btn-primary btnclick"> click me</button>
+<script type="text/javascript">
+	$(".btnclick").click(function () {
+
+		$(".p1").animate({
+
+         height:'50%',
+         width:'50%'
+
+		},2000);
+		$(".p2").animate({
+
+         height:'50%',
+         width:'50%'
+
+		},2000);
+		$(".p3").animate({
+
+         height:'50%',
+         width:'50%'
+
+		},2000);
+		$(".p4").animate({
+
+         height:'50%',
+         width:'50%'
+
+		},2000);
+
+
+		
+		
+	});
+
+</script>
+
+</body>
+
+</html>
